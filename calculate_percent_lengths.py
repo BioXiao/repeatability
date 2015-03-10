@@ -21,9 +21,6 @@ for line in orthoTable:
     full_info = [x for y in zip(*lists) for x in y]
     outF.write('\t'.join(full_info) + '\t' + maxBpDiff + '\n' ) 
 
-    #allLenInfo = [x for y in zip(lengths, percLengths) for x in y] 
-#    outF.write('\t'.join([x for y in zip(names, lengths, percLengths) for x in y])+ '\t' + maxBpDiff + '\n' )
-   
 inOrthologTable.close()
 outF.close()
  
