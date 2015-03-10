@@ -6,6 +6,6 @@ To Do:
 
 -Add usage info for each script.
 
--Add scripts from other collaborators
+-Add scripts from collaborators
 
 -etc
