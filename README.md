@@ -1,11 +1,7 @@
 # repeatability
 
-Custom scripts for Repeatability paper.
+Custom scripts for "Transcriptome-Wide Patterns of Divergence During Allopatric Evolution" 
 
-To Do:
 
--Add usage info for each script.
 
--Add scripts from collaborators
 
--etc
