@@ -1,0 +1,5 @@
+library(ggplot2)
+snpCounts <- read.table('snpCounts',header=TRUE)
+pdf('reads2snp_snpCounts_plot.pdf')
+ggplot(snpCounts, aes(x=coverage,y=snps, group=Population, color=Population)) + geom_line() + theme_classic()
+dev.off()
